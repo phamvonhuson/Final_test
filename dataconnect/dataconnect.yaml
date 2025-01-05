@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "flutter-final-project-phamvonhuson"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "flutter-final-project-phamvonhuson-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
